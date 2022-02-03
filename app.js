@@ -4,7 +4,7 @@ const _0x6cfc=['status','#container-ninja','359695AYDYnu','GET','\x0a\x20\x20\x2
 function insertExternal(){
   var containerNinja = document.getElementById('rastreio').shadowRoot
   var external = containerNinja.querySelector('#container-ninja > div > div > div > div')
-  external.insertAdjacentHTML("afterend", `<p style="padding: 1%;font-size: 10px;font-weight: 100;">Loja Nuthin</p>`)
+  external.insertAdjacentHTML("afterend", `<p style="padding: 1%;font-size: 10px;font-weight: 100;">ou faça o rastreamento pelo aplicativo <a href="https://rastreio.ninja" target="_blank" title="Rastrear Pedido">rastreio.ninja</a></p>`)
 }
 var intervalExternal = setInterval(() => {
   try {
